@@ -3,19 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53904F1B6718E573D65B0350 /* Pods_Slot_Machine_Part_03.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D434BA8000DF3A202FD1CD38 /* Pods_Slot_Machine_Part_03.framework */; };
+		EB469F2225E3524A00AB0DC1 /* ScoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB469F2125E3524A00AB0DC1 /* ScoreDetailViewController.swift */; };
+		EB9A678425E172BA003C59C8 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9A678325E172BA003C59C8 /* PaddingLabel.swift */; };
+		EB9A678725E1D07A003C59C8 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9A678625E1D07A003C59C8 /* HelpViewController.swift */; };
+		EB9A679A25E1D696003C59C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB9A679925E1D696003C59C8 /* GoogleService-Info.plist */; };
 		EBF7187125E0A5E000F61C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7187025E0A5E000F61C61 /* AppDelegate.swift */; };
 		EBF7187325E0A5E000F61C61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7187225E0A5E000F61C61 /* SceneDelegate.swift */; };
 		EBF7187525E0A5E000F61C61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7187425E0A5E000F61C61 /* ViewController.swift */; };
 		EBF7187825E0A5E000F61C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF7187625E0A5E000F61C61 /* Main.storyboard */; };
 		EBF7187A25E0A5E300F61C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF7187925E0A5E300F61C61 /* Assets.xcassets */; };
 		EBF7187D25E0A5E300F61C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF7187B25E0A5E300F61C61 /* LaunchScreen.storyboard */; };
+		EBF7189725E0A87900F61C61 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBF7188A25E0A87900F61C61 /* chimeup.mp3 */; };
+		EBF7189825E0A87900F61C61 /* win-tag.json in Resources */ = {isa = PBXBuildFile; fileRef = EBF7188B25E0A87900F61C61 /* win-tag.json */; };
+		EBF7189925E0A87900F61C61 /* coin-collect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBF7188C25E0A87900F61C61 /* coin-collect.mp3 */; };
+		EBF7189A25E0A87900F61C61 /* casino-chips.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBF7188D25E0A87900F61C61 /* casino-chips.mp3 */; };
+		EBF7189B25E0A87900F61C61 /* spin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBF7188E25E0A87900F61C61 /* spin.mp3 */; };
+		EBF7189C25E0A87900F61C61 /* coin-collect.json in Resources */ = {isa = PBXBuildFile; fileRef = EBF7188F25E0A87900F61C61 /* coin-collect.json */; };
+		EBF7189D25E0A87900F61C61 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBF7189025E0A87900F61C61 /* win.mp3 */; };
+		EBF7189E25E0A87900F61C61 /* game-over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBF7189125E0A87900F61C61 /* game-over.mp3 */; };
+		EBF7189F25E0A87900F61C61 /* fireworks-display.json in Resources */ = {isa = PBXBuildFile; fileRef = EBF7189225E0A87900F61C61 /* fireworks-display.json */; };
+		EBF718A025E0A87900F61C61 /* stars-winner.json in Resources */ = {isa = PBXBuildFile; fileRef = EBF7189325E0A87900F61C61 /* stars-winner.json */; };
+		EBF718A125E0A87900F61C61 /* high-score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBF7189425E0A87900F61C61 /* high-score.mp3 */; };
+		EBF718A225E0A87900F61C61 /* slot-machine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBF7189525E0A87900F61C61 /* slot-machine.mp3 */; };
+		EBF718A325E0A87900F61C61 /* riseup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBF7189625E0A87900F61C61 /* riseup.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C52F22AC1186684B855EE2A9 /* Pods-Slot-Machine-Part-03.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slot-Machine-Part-03.release.xcconfig"; path = "Target Support Files/Pods-Slot-Machine-Part-03/Pods-Slot-Machine-Part-03.release.xcconfig"; sourceTree = "<group>"; };
+		C9B7D06B28CFDFEDE7166C00 /* Pods-Slot-Machine-Part-03.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slot-Machine-Part-03.debug.xcconfig"; path = "Target Support Files/Pods-Slot-Machine-Part-03/Pods-Slot-Machine-Part-03.debug.xcconfig"; sourceTree = "<group>"; };
+		D434BA8000DF3A202FD1CD38 /* Pods_Slot_Machine_Part_03.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slot_Machine_Part_03.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB469F2125E3524A00AB0DC1 /* ScoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreDetailViewController.swift; sourceTree = "<group>"; };
+		EB9A678325E172BA003C59C8 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		EB9A678625E1D07A003C59C8 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelpViewController.swift; path = "../../../Assignment02/Slot-Machine-Part-02_v2/Slot-Machine-Part-02_v2/HelpViewController.swift"; sourceTree = "<group>"; };
+		EB9A679925E1D696003C59C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EBF7186D25E0A5E000F61C61 /* Slot-Machine-Part-03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slot-Machine-Part-03.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF7187025E0A5E000F61C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBF7187225E0A5E000F61C61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +49,19 @@
 		EBF7187925E0A5E300F61C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBF7187C25E0A5E300F61C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBF7187E25E0A5E300F61C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF7188A25E0A87900F61C61 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		EBF7188B25E0A87900F61C61 /* win-tag.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "win-tag.json"; sourceTree = "<group>"; };
+		EBF7188C25E0A87900F61C61 /* coin-collect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "coin-collect.mp3"; sourceTree = "<group>"; };
+		EBF7188D25E0A87900F61C61 /* casino-chips.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "casino-chips.mp3"; sourceTree = "<group>"; };
+		EBF7188E25E0A87900F61C61 /* spin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spin.mp3; sourceTree = "<group>"; };
+		EBF7188F25E0A87900F61C61 /* coin-collect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "coin-collect.json"; sourceTree = "<group>"; };
+		EBF7189025E0A87900F61C61 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		EBF7189125E0A87900F61C61 /* game-over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-over.mp3"; sourceTree = "<group>"; };
+		EBF7189225E0A87900F61C61 /* fireworks-display.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "fireworks-display.json"; sourceTree = "<group>"; };
+		EBF7189325E0A87900F61C61 /* stars-winner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "stars-winner.json"; sourceTree = "<group>"; };
+		EBF7189425E0A87900F61C61 /* high-score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "high-score.mp3"; sourceTree = "<group>"; };
+		EBF7189525E0A87900F61C61 /* slot-machine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "slot-machine.mp3"; sourceTree = "<group>"; };
+		EBF7189625E0A87900F61C61 /* riseup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = riseup.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53904F1B6718E573D65B0350 /* Pods_Slot_Machine_Part_03.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EA828E3B179A2923DDCF494 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9B7D06B28CFDFEDE7166C00 /* Pods-Slot-Machine-Part-03.debug.xcconfig */,
+				C52F22AC1186684B855EE2A9 /* Pods-Slot-Machine-Part-03.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		415A0EDD6ECC237B9E8965CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D434BA8000DF3A202FD1CD38 /* Pods_Slot_Machine_Part_03.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EBF7186425E0A5E000F61C61 = {
 			isa = PBXGroup;
 			children = (
 				EBF7186F25E0A5E000F61C61 /* Slot-Machine-Part-03 */,
 				EBF7186E25E0A5E000F61C61 /* Products */,
+				3EA828E3B179A2923DDCF494 /* Pods */,
+				415A0EDD6ECC237B9E8965CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +114,41 @@
 		EBF7186F25E0A5E000F61C61 /* Slot-Machine-Part-03 */ = {
 			isa = PBXGroup;
 			children = (
+				EBF7188925E0A87900F61C61 /* assets */,
 				EBF7187025E0A5E000F61C61 /* AppDelegate.swift */,
 				EBF7187225E0A5E000F61C61 /* SceneDelegate.swift */,
 				EBF7187425E0A5E000F61C61 /* ViewController.swift */,
+				EB9A678625E1D07A003C59C8 /* HelpViewController.swift */,
+				EB469F2125E3524A00AB0DC1 /* ScoreDetailViewController.swift */,
 				EBF7187625E0A5E000F61C61 /* Main.storyboard */,
 				EBF7187925E0A5E300F61C61 /* Assets.xcassets */,
 				EBF7187B25E0A5E300F61C61 /* LaunchScreen.storyboard */,
+				EB9A679925E1D696003C59C8 /* GoogleService-Info.plist */,
 				EBF7187E25E0A5E300F61C61 /* Info.plist */,
+				EB9A678325E172BA003C59C8 /* PaddingLabel.swift */,
 			);
 			path = "Slot-Machine-Part-03";
+			sourceTree = "<group>";
+		};
+		EBF7188925E0A87900F61C61 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				EBF7188A25E0A87900F61C61 /* chimeup.mp3 */,
+				EBF7188B25E0A87900F61C61 /* win-tag.json */,
+				EBF7188C25E0A87900F61C61 /* coin-collect.mp3 */,
+				EBF7188D25E0A87900F61C61 /* casino-chips.mp3 */,
+				EBF7188E25E0A87900F61C61 /* spin.mp3 */,
+				EBF7188F25E0A87900F61C61 /* coin-collect.json */,
+				EBF7189025E0A87900F61C61 /* win.mp3 */,
+				EBF7189125E0A87900F61C61 /* game-over.mp3 */,
+				EBF7189225E0A87900F61C61 /* fireworks-display.json */,
+				EBF7189325E0A87900F61C61 /* stars-winner.json */,
+				EBF7189425E0A87900F61C61 /* high-score.mp3 */,
+				EBF7189525E0A87900F61C61 /* slot-machine.mp3 */,
+				EBF7189625E0A87900F61C61 /* riseup.mp3 */,
+			);
+			name = assets;
+			path = "../../../Assignment02/Slot-Machine-Part-02_v2/Slot-Machine-Part-02_v2/assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBF7188125E0A5E300F61C61 /* Build configuration list for PBXNativeTarget "Slot-Machine-Part-03" */;
 			buildPhases = (
+				99406BB0D5EBC0B0CF1575CB /* [CP] Check Pods Manifest.lock */,
 				EBF7186925E0A5E000F61C61 /* Sources */,
 				EBF7186A25E0A5E000F61C61 /* Frameworks */,
 				EBF7186B25E0A5E000F61C61 /* Resources */,
+				BE5ADD58E1730CFAD73CDBD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +210,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF718A325E0A87900F61C61 /* riseup.mp3 in Resources */,
+				EBF7189B25E0A87900F61C61 /* spin.mp3 in Resources */,
+				EBF7189725E0A87900F61C61 /* chimeup.mp3 in Resources */,
 				EBF7187D25E0A5E300F61C61 /* LaunchScreen.storyboard in Resources */,
+				EBF7189C25E0A87900F61C61 /* coin-collect.json in Resources */,
 				EBF7187A25E0A5E300F61C61 /* Assets.xcassets in Resources */,
+				EBF7189D25E0A87900F61C61 /* win.mp3 in Resources */,
+				EBF718A225E0A87900F61C61 /* slot-machine.mp3 in Resources */,
+				EBF7189E25E0A87900F61C61 /* game-over.mp3 in Resources */,
+				EBF718A125E0A87900F61C61 /* high-score.mp3 in Resources */,
+				EBF718A025E0A87900F61C61 /* stars-winner.json in Resources */,
+				EBF7189A25E0A87900F61C61 /* casino-chips.mp3 in Resources */,
+				EB9A679A25E1D696003C59C8 /* GoogleService-Info.plist in Resources */,
+				EBF7189825E0A87900F61C61 /* win-tag.json in Resources */,
+				EBF7189F25E0A87900F61C61 /* fireworks-display.json in Resources */,
+				EBF7189925E0A87900F61C61 /* coin-collect.mp3 in Resources */,
 				EBF7187825E0A5E000F61C61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99406BB0D5EBC0B0CF1575CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Slot-Machine-Part-03-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE5ADD58E1730CFAD73CDBD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slot-Machine-Part-03/Pods-Slot-Machine-Part-03-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slot-Machine-Part-03/Pods-Slot-Machine-Part-03-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Slot-Machine-Part-03/Pods-Slot-Machine-Part-03-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EBF7186925E0A5E000F61C61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB469F2225E3524A00AB0DC1 /* ScoreDetailViewController.swift in Sources */,
+				EB9A678425E172BA003C59C8 /* PaddingLabel.swift in Sources */,
 				EBF7187525E0A5E000F61C61 /* ViewController.swift in Sources */,
 				EBF7187125E0A5E000F61C61 /* AppDelegate.swift in Sources */,
 				EBF7187325E0A5E000F61C61 /* SceneDelegate.swift in Sources */,
+				EB9A678725E1D07A003C59C8 /* HelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +428,7 @@
 		};
 		EBF7188225E0A5E300F61C61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B7D06B28CFDFEDE7166C00 /* Pods-Slot-Machine-Part-03.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +448,7 @@
 		};
 		EBF7188325E0A5E300F61C61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52F22AC1186684B855EE2A9 /* Pods-Slot-Machine-Part-03.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

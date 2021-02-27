@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Slot-Machine-Part-03
+//  Slot-Machine-Part-02_v2
 //
-//  Created by Raj Kumar Shahu on 2021-02-19.
+//  Created by Raj Kumar Shahu on 2021-02-13.
 //
 
 import UIKit
