@@ -22,7 +22,6 @@ class ScoreDetailViewController: UIViewController {
         }
     }
     
-    
     @IBOutlet weak var balanceLabel: UILabel!
     
     var balance: Int = 0 {
@@ -31,15 +30,12 @@ class ScoreDetailViewController: UIViewController {
         }
     }
     
-    
-    
     @IBOutlet weak var totalWinLabel: UILabel!
     var totalWin: Int = 0 {
         didSet {
             totalWinLabel.text = "\(String(describing: totalWin))"
         }
     }
-    
     
     @IBOutlet weak var currentBetLabel: UILabel!
     
@@ -48,7 +44,6 @@ class ScoreDetailViewController: UIViewController {
             currentBetLabel.text = "\(String(describing: currentBet))"
         }
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,10 +60,6 @@ class ScoreDetailViewController: UIViewController {
 
                     let documentData = document!.data()
 
-
-
-                    //print(documentData!["jackpotAmount"]!)
-
                     self.jackpotAmount = documentData!["jackpotAmount"]! as! Int
                     self.balance = documentData!["balance"]! as! Int
                     self.totalWin = documentData!["totalWin"]! as! Int
@@ -82,11 +73,5 @@ class ScoreDetailViewController: UIViewController {
                 }
             }
         }
-        
-//        if let jackpot = jackpot {
-//            jackpotLabel.text = jackpot
-//        }
-        
-        
     }
 }
